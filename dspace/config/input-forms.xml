@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
-<!DOCTYPE input-forms SYSTEM "input-forms.dtd">
+<!DOCTYPE input-forms SYSTEM "input-forms.dtd" [
+<!ENTITY cg-input-maps SYSTEM "cg-input-maps.xml">
+]>
+
+
 <input-forms>
   <!-- The form-map maps collection handles to forms. DSpace does not       -->
   <!-- require a collection name to be unique, not even within a community. -->
@@ -11,96 +15,7 @@
   <!-- the mapping for handle "default".                                    -->
   <form-map>
     <name-map collection-handle="default" form-name="traditional" />
-    <!--ILRI submssion form-->
-    <name-map collection-handle="10568/3" form-name="Journal Article ILRI" />
-    <!--CPWF submssion form-->
-    <name-map collection-handle="10568/3252" form-name="Journal Article CPWF" />
-    <name-map collection-handle="10568/3695" form-name="CPWF" />
-    <name-map collection-handle="10568/3622" form-name="CPWF" />
-    <name-map collection-handle="10568/3203" form-name="CPWF" />
-    <name-map collection-handle="10568/3208" form-name="CPWF" />
-    <name-map collection-handle="10568/3725" form-name="CPWF" />
-    <name-map collection-handle="10568/3652" form-name="CPWF" />
-    <name-map collection-handle="10568/3204" form-name="CPWF" />
-    <name-map collection-handle="10568/3209" form-name="CPWF" />
-    <name-map collection-handle="10568/3653" form-name="CPWF" />
-    <name-map collection-handle="10568/3718" form-name="CPWF" />
-    <name-map collection-handle="10568/3726" form-name="CPWF" />
-    <name-map collection-handle="10568/3720" form-name="CPWF" />
-    <name-map collection-handle="10568/3705" form-name="CPWF" />
-    <name-map collection-handle="10568/3341" form-name="CPWF" />
-    <name-map collection-handle="10568/3343" form-name="CPWF" />
-    <name-map collection-handle="10568/3340" form-name="CPWF" />
-    <name-map collection-handle="10568/3342" form-name="CPWF" />
-    <name-map collection-handle="10568/3719" form-name="CPWF" />
-    <name-map collection-handle="10568/3714" form-name="CPWF" />
-    <name-map collection-handle="10568/4145" form-name="CPWF" />
-    <name-map collection-handle="10568/3715" form-name="CPWF" />
-    <name-map collection-handle="10568/3669" form-name="CPWF" />
-    <name-map collection-handle="10568/3668" form-name="CPWF" />
-    <name-map collection-handle="10568/3361" form-name="CPWF" />
-    <name-map collection-handle="10568/3362" form-name="CPWF" />
-    <name-map collection-handle="10568/3359" form-name="CPWF" />
-    <name-map collection-handle="10568/3358" form-name="CPWF" />
-    <name-map collection-handle="10568/3360" form-name="CPWF" />
-    <name-map collection-handle="10568/3729" form-name="CPWF" />
-    <name-map collection-handle="10568/3352" form-name="CPWF" />
-    <name-map collection-handle="10568/3350" form-name="CPWF" />
-    <name-map collection-handle="10568/3349" form-name="CPWF" />
-    <name-map collection-handle="10568/5387" form-name="CPWF" />
-    <name-map collection-handle="10568/4760" form-name="CPWF" />
-    <name-map collection-handle="10568/5392" form-name="CPWF" />
-    <name-map collection-handle="10568/7019" form-name="CPWF" />
-    <!-- new cpwf since sep 2011-->
-    <name-map collection-handle="10568/3689" form-name="CPWF" />
-    <name-map collection-handle="10568/3691" form-name="CPWF" />
-    <name-map collection-handle="10568/3684" form-name="CPWF" />
-    <name-map collection-handle="10568/3348" form-name="CPWF" />
-    <name-map collection-handle="10568/3351" form-name="CPWF" />
-    <name-map collection-handle="10568/3347" form-name="CPWF" />
-    <name-map collection-handle="10568/4012" form-name="CPWF" />
-    <name-map collection-handle="10568/3344" form-name="CPWF" />
-    <name-map collection-handle="10568/3345" form-name="CPWF" />
-    <name-map collection-handle="10568/3346" form-name="CPWF" />
-    <name-map collection-handle="10568/3145" form-name="CPWF" />
-    <name-map collection-handle="10568/3921" form-name="CPWF" />
-    <name-map collection-handle="10568/3354" form-name="CPWF" />
-    <name-map collection-handle="10568/3355" form-name="CPWF" />
-    <name-map collection-handle="10568/3356" form-name="CPWF" />
-    <name-map collection-handle="10568/3353" form-name="CPWF" />
-    <name-map collection-handle="10568/10373" form-name="CPWF" />
-    <!--CCAFS submssion form-->
-    <name-map collection-handle="10568/3547" form-name="CCAFS" />
-    <name-map collection-handle="10568/3549" form-name="CCAFS" />
-    <name-map collection-handle="10568/3531" form-name="CCAFS" />
-    <name-map collection-handle="10568/3546" form-name="CCAFS" />
-    <name-map collection-handle="10568/3548" form-name="CCAFS" />
-    <name-map collection-handle="10568/3554" form-name="CCAFS" />
-    <name-map collection-handle="10568/3553" form-name="CCAFS" />
-    <name-map collection-handle="10568/3555" form-name="CCAFS" />
-    <name-map collection-handle="10568/3556" form-name="CCAFS" />
-    <!--CCAFS submssion form in Dece 2011-->
-    <name-map collection-handle="10568/5472" form-name="CCAFS" />
-    <name-map collection-handle="10568/5473" form-name="CCAFS" />
-    <name-map collection-handle="10568/10288" form-name="CCAFS" />
-    <name-map collection-handle="10568/5470" form-name="CCAFS" />
-    <name-map collection-handle="10568/5469" form-name="CCAFS" />
-    <name-map collection-handle="10568/5468" form-name="CCAFS" />
-    <name-map collection-handle="10568/21757" form-name="CCAFS" />
-    <name-map collection-handle="10568/21749" form-name="CCAFS" />
-    <name-map collection-handle="10568/21752" form-name="CCAFS" />
-    <name-map collection-handle="10568/25167" form-name="CCAFS" />
-    <name-map collection-handle="10568/21789" form-name="CCAFS" />
-    <name-map collection-handle="10568/16890" form-name="CCAFS" />
-    <!--AgriFood Chain Toolkit collections-->
-    <name-map collection-handle="10568/24757" form-name="AgriFood Chain capacity building" />
-    <name-map collection-handle="10568/24756" form-name="AgriFood Chain capacity building" />
-    <name-map collection-handle="10568/24755" form-name="AgriFood Chain capacity building" />
-    <!--CTA submission form -->
-    <name-map collection-handle="10568/33439" form-name="CTA" />
-    <!--WLE Submssion form -->
-    <name-map collection-handle="10568/34494" form-name="WLE" />
-    <name-map collection-handle="10568/37089" form-name="Bioversity" />
+    &cg-input-maps;
   </form-map>
   <!--CIFOR submission form SINCE JAN 2012-->
   <!-- The form-definitions map lays out the detailed definition of all the -->
