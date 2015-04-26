@@ -1,291 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
-<node id="ILRIvocabularies" label="ILRI vocabularies">
+<node id="ILRIsubjects" label="ILRI subjects">
   <isComposedBy>
-    <node id="ILRIsubjects" label="ILRI subjects">
-      <isComposedBy>
-        <node label="VALUE CHAINS" id="I.1">
-          <hasNote>VALUE CHAINS</hasNote>
-        </node>
-        <node label="AGRICULTURE" id="I.2">
-          <hasNote>AGRICULTURE</hasNote>
-        </node>
-        <node label="AGRI-HEALTH" id="I.3">
-          <hasNote>AGRI-HEALTH</hasNote>
-        </node>
-        <node label="AGROFORESTRY" id="I.4">
-          <hasNote>AGROFORESTRY</hasNote>
-        </node>
-        <node label="AFLATOXINS" id="I.5">
-          <hasNote>AFLATOXINS</hasNote>
-        </node>
-        <node label="ANIMAL BREEDING" id="I.6">
-          <hasNote>ANIMAL BREEDING</hasNote>
-        </node>
-        <node label="ANIMAL CARE" id="I.7">
-          <hasNote>ANIMAL CARE</hasNote>
-        </node>
-        <node label="ANIMAL DISEASES" id="I.8">
-          <hasNote>ANIMAL DISEASES</hasNote>
-        </node>
-        <node label="ANIMAL FEEDING" id="I.9">
-          <hasNote>ANIMAL FEEDING</hasNote>
-        </node>
-        <node label="ANIMAL HEALTH">
-          <hasNote>ANIMAL HEALTH</hasNote>
-        </node>
-        <node label="ANIMAL PRODUCTION">
-          <hasNote>ANIMAL PRODUCTION</hasNote>
-        </node>
-        <node label="ANIMAL PRODUCTS">
-          <hasNote>ANIMAL PRODUCTS</hasNote>
-        </node>
-        <node label="APICULTURE">
-          <hasNote>APICULTURE</hasNote>
-        </node>
-        <node label="ASF">
-          <hasNote>ASF</hasNote>
-        </node>
-        <node label="BIODIVERSITY">
-          <hasNote>BIODIVERSITY</hasNote>
-        </node>
-        <node label="BIOTECHNOLOGY">
-          <hasNote>BIOTECHNOLOGY</hasNote>
-        </node>
-        <node label="BIRD FLU">
-          <hasNote>BIRD FLU</hasNote>
-        </node>
-        <node label="BREEDS">
-          <hasNote>BREEDS</hasNote>
-        </node>
-        <node label="BRUCELLOSIS">
-          <hasNote>BRUCELLOSIS</hasNote>
-        </node>
-        <node label="BUFFALO">
-          <hasNote>BUFFALO</hasNote>
-        </node>
-        <node label="CAPACITY STRENGTHENING">
-          <hasNote>CAPACITY STRENGTHENING</hasNote>
-        </node>
-        <node label="CAMELS">
-          <hasNote>CAMELS</hasNote>
-        </node>
-        <node label="CATTLE">
-          <hasNote>CATTLE</hasNote>
-        </node>
-        <node label="CBPP">
-          <hasNote>CBPP</hasNote>
-        </node>
-        <node label="CLIMATE CHANGE">
-          <hasNote>CLIMATE CHANGE</hasNote>
-        </node>
-        <node label="CONSUMPTION">
-          <hasNote>CONSUMPTION</hasNote>
-        </node>
-        <node label="CROP RESIDUES">
-          <hasNote>CROP RESIDUES</hasNote>
-        </node>
-        <node label="CROP-LIVESTOCK">
-          <hasNote>CROP-LIVESTOCK</hasNote>
-        </node>
-        <node label="DAIRYING">
-          <hasNote>DAIRYING</hasNote>
-        </node>
-        <node label="DIAGNOSTICS">
-          <hasNote>DIAGNOSTICS</hasNote>
-        </node>
-        <node label="DISEASE CONTROL">
-          <hasNote>DISEASE CONTROL</hasNote>
-        </node>
-        <node label="DROUGHT">
-          <hasNote>DROUGHT</hasNote>
-        </node>
-        <node label="DRYLANDS">
-          <hasNote>DRYLANDS</hasNote>
-        </node>
-        <node label="ECF">
-          <hasNote>ECF</hasNote>
-        </node>
-        <node label="EMERGING DISEASES">
-          <hasNote>EMERGING DISEASES</hasNote>
-        </node>
-        <node label="ENVIRONMENT">
-          <hasNote>ENVIRONMENT</hasNote>
-        </node>
-        <node label="EPIDEMIOLOGY">
-          <hasNote>EPIDEMIOLOGY</hasNote>
-        </node>
-        <node label="EXTENSION">
-          <hasNote>EXTENSION</hasNote>
-        </node>
-        <node label="FARM MANAGEMENT">
-          <hasNote>FARM MANAGEMENT</hasNote>
-        </node>
-        <node label="FARMING SYSTEMS">
-          <hasNote>FARMING SYSTEMS</hasNote>
-        </node>
-        <node label="FEEDS">
-          <hasNote>FEEDS</hasNote>
-        </node>
-        <node label="FISH">
-          <hasNote>FISH</hasNote>
-        </node>
-        <node label="FODDER">
-          <hasNote>FODDER</hasNote>
-        </node>
-        <node label="FOOD SAFETY">
-          <hasNote>FOOD SAFETY</hasNote>
-        </node>
-        <node label="FOOD SECURITY">
-          <hasNote>FOOD SECURITY</hasNote>
-        </node>
-        <node label="FORAGES">
-          <hasNote>FORAGES</hasNote>
-        </node>
-        <node label="FORESTRY">
-          <hasNote>FORESTRY</hasNote>
-        </node>
-        <node label="GENETICS">
-          <hasNote>GENETICS</hasNote>
-        </node>
-        <node label="GENETIC RESOURCES">
-          <hasNote>GENETIC RESOURCES</hasNote>
-        </node>
-        <node label="GENDER">
-          <hasNote>GENDER</hasNote>
-        </node>
-        <node label="GEODATA">
-          <hasNote>GEODATA</hasNote>
-        </node>
-        <node label="GOATS">
-          <hasNote>GOATS</hasNote>
-        </node>
-        <node label="HEALTH">
-          <hasNote>HEALTH</hasNote>
-        </node>
-        <node label="HIV-AIDS">
-          <hasNote>HIV-AIDS</hasNote>
-        </node>
-        <node label="HUMID TROPICS">
-          <hasNote>HUMID TROPICS</hasNote>
-        </node>
-        <node label="IMPACT ASSESSMENT">
-          <hasNote>IMPACT ASSESSMENT</hasNote>
-        </node>
-        <node label="INDIGENOUS BREEDS">
-          <hasNote>INDIGENOUS BREEDS</hasNote>
-        </node>
-        <node label="INNOVATION SYSTEMS">
-          <hasNote>INNOVATION SYSTEMS</hasNote>
-        </node>
-        <node label="INTENSIFICATION">
-          <hasNote>INTENSIFICATION</hasNote>
-        </node>
-        <node label="INSURANCE">
-          <hasNote>INSURANCE</hasNote>
-        </node>
-        <node label="KNOWLEDGE AND INFORMATION">
-          <hasNote>KNOWLEDGE AND INFORMATION</hasNote>
-        </node>
-        <node label="LIVELIHOODS">
-          <hasNote>KLIVELIHOODS</hasNote>
-        </node>
-        <node label="LIVELIHOODS">
-          <hasNote>KLIVELIHOODS</hasNote>
-        </node>
-        <node label="LIVELIHOODS">
-          <hasNote>KLIVELIHOODS</hasNote>
-        </node>
-        <node label="LIVESTOCK">
-          <hasNote>LIVESTOCK</hasNote>
-        </node>
-        <node label="LIVESTOCK SYSTEMS">
-          <hasNote>LIVESTOCK SYSTEMS</hasNote>
-        </node>
-        <node label="LIVESTOCK-WATER">
-          <hasNote>LIVESTOCK-WATER</hasNote>
-        </node>
-        <node label="MARKETS">
-          <hasNote>MARKETS</hasNote>
-        </node>
-        <node label="NRM">
-          <hasNote>NRM</hasNote>
-        </node>
-        <node label="NUTRITION">
-          <hasNote>NUTRITION</hasNote>
-        </node>
-        <node label="PARTICIPATION">
-          <hasNote>PARTICIPATION</hasNote>
-        </node>
-        <node label="PASTORALISM">
-          <hasNote>PASTORALISM</hasNote>
-        </node>
-        <node label="PESTS">
-          <hasNote>PESTS</hasNote>
-        </node>
-        <node label="PIGS">
-          <hasNote>PIGS</hasNote>
-        </node>
-        <node label="POULTRY">
-          <hasNote>POULTRY</hasNote>
-        </node>
-        <node label="POLICY">
-          <hasNote>POLICY</hasNote>
-        </node>
-        <node label="PPR">
-          <hasNote>PPR</hasNote>
-        </node>
-        <node label="PRO-POOR LIVESTOCK">
-          <hasNote>PRO-POOR LIVESTOCK</hasNote>
-        </node>
-        <node label="REPRODUCTION">
-          <hasNote>REPRODUCTION</hasNote>
-        </node>
-        <node label="RESEARCH">
-          <hasNote>RESEARCH</hasNote>
-        </node>
-        <node label="RESILIENCE">
-          <hasNote>RESILIENCE</hasNote>
-        </node>
-        <node label="SEEDS">
-          <hasNote>SEEDS</hasNote>
-        </node>
-        <node label="SHEEP">
-          <hasNote>SHEEP</hasNote>
-        </node>
-        <node label="SMALL RUMINANTS">
-          <hasNote>SMALL RUMINANTS</hasNote>
-        </node>
-        <node label="SOCIAL LEARNING">
-          <hasNote>SOCIAL LEARNING</hasNote>
-        </node>
-        <node label="SOILS">
-          <hasNote>SOILS</hasNote>
-        </node>
-        <node label="TRADE">
-          <hasNote>TRADE</hasNote>
-        </node>
-        <node label="TRYPANOSOMIASIS">
-          <hasNote>TRYPANOSOMIASIS</hasNote>
-        </node>
-        <node label="VACCINES">
-          <hasNote>VACCINES</hasNote>
-        </node>
-        <node label="VULNERABILITY">
-          <hasNote>VULNERABILITY</hasNote>
-        </node>
-        <node label="WATER">
-          <hasNote>WATER</hasNote>
-        </node>
-        <node label="WILDLIFE">
-          <hasNote>WILDLIFE</hasNote>
-        </node>
-        <node label="WOMEN">
-          <hasNote>WOMEN</hasNote>
-        </node>
-        <node label="ZOONOTIC DISEASES">
-          <hasNote>ZOONOTIC DISEASES</hasNote>
-        </node>
-      </isComposedBy>
+    <node label="VALUE CHAINS" id="I.1">
+      <hasNote>VALUE CHAINS</hasNote>
+    </node>
+    <node label="AGRICULTURE" id="I.2">
+      <hasNote>AGRICULTURE</hasNote>
+    </node>
+    <node label="AGRI-HEALTH" id="I.3">
+      <hasNote>AGRI-HEALTH</hasNote>
+    </node>
+    <node label="AGROFORESTRY" id="I.4">
+      <hasNote>AGROFORESTRY</hasNote>
+    </node>
+    <node label="AFLATOXINS" id="I.5">
+      <hasNote>AFLATOXINS</hasNote>
+    </node>
+    <node label="ANIMAL BREEDING" id="I.6">
+      <hasNote>ANIMAL BREEDING</hasNote>
+    </node>
+    <node label="ANIMAL CARE" id="I.7">
+      <hasNote>ANIMAL CARE</hasNote>
+    </node>
+    <node label="ANIMAL DISEASES" id="I.8">
+      <hasNote>ANIMAL DISEASES</hasNote>
+    </node>
+    <node label="ANIMAL FEEDING" id="I.9">
+      <hasNote>ANIMAL FEEDING</hasNote>
+    </node>
+    <node label="ANIMAL HEALTH">
+      <hasNote>ANIMAL HEALTH</hasNote>
+    </node>
+    <node label="ANIMAL PRODUCTION">
+      <hasNote>ANIMAL PRODUCTION</hasNote>
+    </node>
+    <node label="ANIMAL PRODUCTS">
+      <hasNote>ANIMAL PRODUCTS</hasNote>
+    </node>
+    <node label="APICULTURE">
+      <hasNote>APICULTURE</hasNote>
+    </node>
+    <node label="ASF">
+      <hasNote>ASF</hasNote>
+    </node>
+    <node label="BIODIVERSITY">
+      <hasNote>BIODIVERSITY</hasNote>
+    </node>
+    <node label="BIOTECHNOLOGY">
+      <hasNote>BIOTECHNOLOGY</hasNote>
+    </node>
+    <node label="BIRD FLU">
+      <hasNote>BIRD FLU</hasNote>
+    </node>
+    <node label="BREEDS">
+      <hasNote>BREEDS</hasNote>
+    </node>
+    <node label="BRUCELLOSIS">
+      <hasNote>BRUCELLOSIS</hasNote>
+    </node>
+    <node label="BUFFALO">
+      <hasNote>BUFFALO</hasNote>
+    </node>
+    <node label="CAPACITY STRENGTHENING">
+      <hasNote>CAPACITY STRENGTHENING</hasNote>
+    </node>
+    <node label="CAMELS">
+      <hasNote>CAMELS</hasNote>
+    </node>
+    <node label="CATTLE">
+      <hasNote>CATTLE</hasNote>
+    </node>
+    <node label="CBPP">
+      <hasNote>CBPP</hasNote>
+    </node>
+    <node label="CLIMATE CHANGE">
+      <hasNote>CLIMATE CHANGE</hasNote>
+    </node>
+    <node label="CONSUMPTION">
+      <hasNote>CONSUMPTION</hasNote>
+    </node>
+    <node label="CROP RESIDUES">
+      <hasNote>CROP RESIDUES</hasNote>
+    </node>
+    <node label="CROP-LIVESTOCK">
+      <hasNote>CROP-LIVESTOCK</hasNote>
+    </node>
+    <node label="DAIRYING">
+      <hasNote>DAIRYING</hasNote>
+    </node>
+    <node label="DIAGNOSTICS">
+      <hasNote>DIAGNOSTICS</hasNote>
+    </node>
+    <node label="DISEASE CONTROL">
+      <hasNote>DISEASE CONTROL</hasNote>
+    </node>
+    <node label="DROUGHT">
+      <hasNote>DROUGHT</hasNote>
+    </node>
+    <node label="DRYLANDS">
+      <hasNote>DRYLANDS</hasNote>
+    </node>
+    <node label="ECF">
+      <hasNote>ECF</hasNote>
+    </node>
+    <node label="EMERGING DISEASES">
+      <hasNote>EMERGING DISEASES</hasNote>
+    </node>
+    <node label="ENVIRONMENT">
+      <hasNote>ENVIRONMENT</hasNote>
+    </node>
+    <node label="EPIDEMIOLOGY">
+      <hasNote>EPIDEMIOLOGY</hasNote>
+    </node>
+    <node label="EXTENSION">
+      <hasNote>EXTENSION</hasNote>
+    </node>
+    <node label="FARM MANAGEMENT">
+      <hasNote>FARM MANAGEMENT</hasNote>
+    </node>
+    <node label="FARMING SYSTEMS">
+      <hasNote>FARMING SYSTEMS</hasNote>
+    </node>
+    <node label="FEEDS">
+      <hasNote>FEEDS</hasNote>
+    </node>
+    <node label="FISH">
+      <hasNote>FISH</hasNote>
+    </node>
+    <node label="FODDER">
+      <hasNote>FODDER</hasNote>
+    </node>
+    <node label="FOOD SAFETY">
+      <hasNote>FOOD SAFETY</hasNote>
+    </node>
+    <node label="FOOD SECURITY">
+      <hasNote>FOOD SECURITY</hasNote>
+    </node>
+    <node label="FORAGES">
+      <hasNote>FORAGES</hasNote>
+    </node>
+    <node label="FORESTRY">
+      <hasNote>FORESTRY</hasNote>
+    </node>
+    <node label="GENETICS">
+      <hasNote>GENETICS</hasNote>
+    </node>
+    <node label="GENETIC RESOURCES">
+      <hasNote>GENETIC RESOURCES</hasNote>
+    </node>
+    <node label="GENDER">
+      <hasNote>GENDER</hasNote>
+    </node>
+    <node label="GEODATA">
+      <hasNote>GEODATA</hasNote>
+    </node>
+    <node label="GOATS">
+      <hasNote>GOATS</hasNote>
+    </node>
+    <node label="HEALTH">
+      <hasNote>HEALTH</hasNote>
+    </node>
+    <node label="HIV-AIDS">
+      <hasNote>HIV-AIDS</hasNote>
+    </node>
+    <node label="HUMID TROPICS">
+      <hasNote>HUMID TROPICS</hasNote>
+    </node>
+    <node label="IMPACT ASSESSMENT">
+      <hasNote>IMPACT ASSESSMENT</hasNote>
+    </node>
+    <node label="INDIGENOUS BREEDS">
+      <hasNote>INDIGENOUS BREEDS</hasNote>
+    </node>
+    <node label="INNOVATION SYSTEMS">
+      <hasNote>INNOVATION SYSTEMS</hasNote>
+    </node>
+    <node label="INTENSIFICATION">
+      <hasNote>INTENSIFICATION</hasNote>
+    </node>
+    <node label="INSURANCE">
+      <hasNote>INSURANCE</hasNote>
+    </node>
+    <node label="KNOWLEDGE AND INFORMATION">
+      <hasNote>KNOWLEDGE AND INFORMATION</hasNote>
+    </node>
+    <node label="LIVELIHOODS">
+      <hasNote>KLIVELIHOODS</hasNote>
+    </node>
+    <node label="LIVELIHOODS">
+      <hasNote>KLIVELIHOODS</hasNote>
+    </node>
+    <node label="LIVELIHOODS">
+      <hasNote>KLIVELIHOODS</hasNote>
+    </node>
+    <node label="LIVESTOCK">
+      <hasNote>LIVESTOCK</hasNote>
+    </node>
+    <node label="LIVESTOCK SYSTEMS">
+      <hasNote>LIVESTOCK SYSTEMS</hasNote>
+    </node>
+    <node label="LIVESTOCK-WATER">
+      <hasNote>LIVESTOCK-WATER</hasNote>
+    </node>
+    <node label="MARKETS">
+      <hasNote>MARKETS</hasNote>
+    </node>
+    <node label="NRM">
+      <hasNote>NRM</hasNote>
+    </node>
+    <node label="NUTRITION">
+      <hasNote>NUTRITION</hasNote>
+    </node>
+    <node label="PARTICIPATION">
+      <hasNote>PARTICIPATION</hasNote>
+    </node>
+    <node label="PASTORALISM">
+      <hasNote>PASTORALISM</hasNote>
+    </node>
+    <node label="PESTS">
+      <hasNote>PESTS</hasNote>
+    </node>
+    <node label="PIGS">
+      <hasNote>PIGS</hasNote>
+    </node>
+    <node label="POULTRY">
+      <hasNote>POULTRY</hasNote>
+    </node>
+    <node label="POLICY">
+      <hasNote>POLICY</hasNote>
+    </node>
+    <node label="PPR">
+      <hasNote>PPR</hasNote>
+    </node>
+    <node label="PRO-POOR LIVESTOCK">
+      <hasNote>PRO-POOR LIVESTOCK</hasNote>
+    </node>
+    <node label="REPRODUCTION">
+      <hasNote>REPRODUCTION</hasNote>
+    </node>
+    <node label="RESEARCH">
+      <hasNote>RESEARCH</hasNote>
+    </node>
+    <node label="RESILIENCE">
+      <hasNote>RESILIENCE</hasNote>
+    </node>
+    <node label="SEEDS">
+      <hasNote>SEEDS</hasNote>
+    </node>
+    <node label="SHEEP">
+      <hasNote>SHEEP</hasNote>
+    </node>
+    <node label="SMALL RUMINANTS">
+      <hasNote>SMALL RUMINANTS</hasNote>
+    </node>
+    <node label="SOCIAL LEARNING">
+      <hasNote>SOCIAL LEARNING</hasNote>
+    </node>
+    <node label="SOILS">
+      <hasNote>SOILS</hasNote>
+    </node>
+    <node label="TRADE">
+      <hasNote>TRADE</hasNote>
+    </node>
+    <node label="TRYPANOSOMIASIS">
+      <hasNote>TRYPANOSOMIASIS</hasNote>
+    </node>
+    <node label="VACCINES">
+      <hasNote>VACCINES</hasNote>
+    </node>
+    <node label="VULNERABILITY">
+      <hasNote>VULNERABILITY</hasNote>
+    </node>
+    <node label="WATER">
+      <hasNote>WATER</hasNote>
+    </node>
+    <node label="WILDLIFE">
+      <hasNote>WILDLIFE</hasNote>
+    </node>
+    <node label="WOMEN">
+      <hasNote>WOMEN</hasNote>
+    </node>
+    <node label="ZOONOTIC DISEASES">
+      <hasNote>ZOONOTIC DISEASES</hasNote>
     </node>
   </isComposedBy>
 </node>
