@@ -614,6 +614,8 @@
           <label>Animal breed</label>
           <input-type>onebox</input-type>
           <required></required>
+          <hint>Enter appropriate animal breed(s).</hint>
+          <vocabulary>cgspeciesbreed</vocabulary>
         </field>
         <field>
           <dc-schema>cg</dc-schema>
