@@ -18,6 +18,12 @@
 
     <dc-type>
         <schema>cg</schema>
+        <element>contributor</element>
+        <qualifier>lead-author</qualifier>
+    </dc-type>
+
+    <dc-type>
+        <schema>cg</schema>
         <element>authorship</element>
         <qualifier>types</qualifier>
     </dc-type>

@@ -49,6 +49,16 @@
         <field>
           <dc-schema>cg</dc-schema>
           <dc-element>contributor</dc-element>
+          <dc-qualifier>lead-author</dc-qualifier>
+          <repeatable>false</repeatable>
+          <label>Lead author (required)</label>
+          <input-type>name</input-type>
+          <hint>Enter the name of the lead author of this item. ALWAYS use the Lookup option to select from an existing author entry (author names in italics have ORCID records)</hint>
+          <required>Please enter the lead author.</required>
+        </field>
+        <field>
+          <dc-schema>cg</dc-schema>
+          <dc-element>contributor</dc-element>
           <dc-qualifier>affiliation</dc-qualifier>
           <repeatable>true</repeatable>
           <label>Author affiliations</label>
