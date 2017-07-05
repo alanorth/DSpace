@@ -1,286 +1,321 @@
 <dspace-dc-types>
-
-    <dspace-header>
-        <title>CGIAR Types Registry</title>
-    </dspace-header>
-
-    <dc-schema>
-        <name>cg</name>
-        <namespace>http://www.cgiar.org/</namespace>
-    </dc-schema>
-
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>contributor</element>
-        <qualifier>affiliation</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>authorship</element>
-        <qualifier>types</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>edition</element>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>place</element>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>url</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>googleurl</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>link</element>
-        <qualifier>permalink</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>doi</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>contributor</element>
-        <qualifier>crp</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>coverage</element>
-        <qualifier>country</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>coverage</element>
-        <qualifier>region</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>coverage</element>
-        <qualifier>subregion</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>river</element>
-        <qualifier>basin</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>bioversity</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>ccafs</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>ccafsproject</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>ccafsprojectpii</qualifier>
-        <scope_note>CCAFS Phase II project tag</scope_note>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>ciatproject</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>ciat</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>cifor</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>cip</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>cpwf</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>cpwfproject</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>cta</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>drylands</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>humidtropics</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>icarda</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>iita</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>ilri</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>iwmi</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>pabra</qualifier>
-        <scope_note>Pan-Africa Bean Research Alliance (PABRA) subject.</scope_note>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>subject</element>
-        <qualifier>wle</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>isijournal</element>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>fulltextstatus</element>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>targetaudience</element>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>status</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>link</element>
-        <qualifier>video</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>link</element>
-        <qualifier>audio</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>link</element>
-        <qualifier>photo</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>link</element>
-        <qualifier>reference</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>link</element>
-        <qualifier>citation</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>identifier</element>
-        <qualifier>dataurl</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>species</element>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>species</element>
-        <qualifier>breed</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>message</element>
-        <qualifier>voice</qualifier>
-    </dc-type>
-
-    <dc-type>
-        <schema>cg</schema>
-        <element>message</element>
-        <qualifier>sms</qualifier>
-    </dc-type>
-
-
+  <dspace-header>
+    <title>CGIAR Types Registry</title>
+  </dspace-header>
+  <dc-schema>
+    <name>cg</name>
+    <namespace>http://www.cgiar.org/</namespace>
+  </dc-schema>
+  <dc-type>
+    <schema>cg</schema>
+    <element>authorship</element>
+    <qualifier>types</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>contributor</element>
+    <qualifier>affiliation</qualifier>
+    <scope_note>Contributor affiliation</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>contributor</element>
+    <qualifier>crp</qualifier>
+    <scope_note>CGIAR Research Program with which the research is affiliated.</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>coverage</element>
+    <qualifier>country</qualifier>
+    <scope_note>Country/countries relating to data collection described in the information product</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>coverage</element>
+    <qualifier>region</qualifier>
+    <scope_note>Region where data was collected or the focus of the research described in the information product</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>coverage</element>
+    <qualifier>subregion</qualifier>
+    <scope_note>Province, state, or other type of sub-national administrative region where data was collected or the focus of the research described in the information product.</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>edition</element>
+    <qualifier></qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>fulltextstatus</element>
+    <qualifier></qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>ccafsproject</qualifier>
+    <scope_note>CCAFS unique project tag</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>ccafsprojectpii</qualifier>
+    <scope_note>CCAFS Phase II project tag</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>ciatproject</qualifier>
+    <scope_note>CIAT project tag</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>cpwfproject</qualifier>
+    <scope_note>CPWF project number</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>dataurl</qualifier>
+    <scope_note>URL pointing to data associated with the item</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>doi</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>googleurl</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>status</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>url</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>identifier</element>
+    <qualifier>wletheme</qualifier>
+    <scope_note>WLE Phase I and II research themes</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>isijournal</element>
+    <qualifier></qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>link</element>
+    <qualifier>audio</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>link</element>
+    <qualifier>citation</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>link</element>
+    <qualifier>permalink</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>link</element>
+    <qualifier>photo</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>link</element>
+    <qualifier>reference</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>link</element>
+    <qualifier>video</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>livestock</element>
+    <qualifier>agegroup</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>livestock</element>
+    <qualifier>function</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>message</element>
+    <qualifier>sms</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>message</element>
+    <qualifier>voice</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>place</element>
+    <qualifier></qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>river</element>
+    <qualifier>basin</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>species</element>
+    <qualifier>breed</qualifier>
+    <scope_note>breed</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>species</element>
+    <qualifier></qualifier>
+    <scope_note>Plant or animal species</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>bioversity</qualifier>
+    <scope_note>Bioversity subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>ccafs</qualifier>
+    <scope_note>CCAFS subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>ciat</qualifier>
+    <scope_note>CIAT subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>cifor</qualifier>
+    <scope_note>CIFOR subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>cip</qualifier>
+    <scope_note>CIP subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>cpwf</qualifier>
+    <scope_note>CPWF subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>crp</qualifier>
+    <scope_note>CGIAR Research Program subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>cta</qualifier>
+    <scope_note>CTA subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>drylands</qualifier>
+    <scope_note>Drylands CRP subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>humidtropics</qualifier>
+    <scope_note>Humidtropics CRP subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>icarda</qualifier>
+    <scope_note>ICARDA subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>iita</qualifier>
+    <scope_note>IITA subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>ilri</qualifier>
+    <scope_note>ILRI subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>iwmi</qualifier>
+    <scope_note>IWMI subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>pabra</qualifier>
+    <scope_note>Pan-Africa Bean Research Alliance (PABRA) subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>system</qualifier>
+    <scope_note>CGIAR System Organization subject (from CGIAR Library migration)</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>subject</element>
+    <qualifier>wle</qualifier>
+    <scope_note>WLE Subject</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>targetaudience</element>
+    <qualifier></qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>cg</schema>
+    <element>title</element>
+    <qualifier>journal</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
 </dspace-dc-types>
