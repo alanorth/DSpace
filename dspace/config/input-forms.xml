@@ -307,7 +307,7 @@
           <dc-qualifier></dc-qualifier>
           <repeatable>true</repeatable>
           <label>AGROVOC keywords</label>
-          <input-type>twobox</input-type>
+          <input-type>onebox</input-type>
           <hint>Enter appropriate subject keywords or phrases.</hint>
           <required></required>
         </field>
