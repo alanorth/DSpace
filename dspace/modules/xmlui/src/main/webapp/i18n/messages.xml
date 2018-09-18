@@ -150,10 +150,9 @@
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_icardasubject">ICARDA subjects</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_iitasubject">IITA subjects</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_affiliation">Author affiliations</message>
-    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_status">Status</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_accessRights">Access rights</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_breed">Animal breed</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_species">Species</message>
-   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_common_status_identifier">Status</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_journaltitle">Journal title</message>
    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ISI_Journal">ISI Journal status</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_usageRights">Usage rights</message>
@@ -414,7 +413,7 @@
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.iwmisubject">IWMI subject</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.wlesubject">WLE subject</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.iitasubject">IITA subject</message>
-	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.status">Status</message>
+	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.accessRights">Access rights</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.region">Region</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.country">Country</message>
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.filter.breed">Animal breed</message>
@@ -2689,7 +2688,7 @@
     <message key="xmlui.Discovery.AbstractSearch.type_iitasubject">Filter by: IITA subject</message>
     <message key="xmlui.Discovery.AbstractSearch.type_cipsubject">Filter by: CIP subject</message>
     <message key="xmlui.Discovery.AbstractSearch.type_sponsorship">Filter by: Investor</message>
-    <message key="xmlui.Discovery.AbstractSearch.type_status">Filter by: Status</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_accessRights">Filter by: Access rights</message>
     <message key="xmlui.Discovery.AbstractSearch.type_crpsubject">Filter by: CRP subject</message>
     <message key="xmlui.Discovery.AbstractSearch.type_usageRights">Filter by: Usage rights</message>
 

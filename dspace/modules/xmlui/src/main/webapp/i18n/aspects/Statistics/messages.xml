@@ -587,7 +587,7 @@ DAMAGE.
     <message key="xmlui.reporting-suite.statistics.graph-editor.data-source.dataset.option.type">Type (dc.type)</message>
 
     <message key="xmlui.reporting-suite.statistics.graph-editor.data-source.dataset.option.title">Title (dc.title)</message>
-    <message key="xmlui.reporting-suite.statistics.graph-editor.data-source.dataset.option.status">Status (cg.identifier.status)</message>
+    <message key="xmlui.reporting-suite.statistics.graph-editor.data-source.dataset.option.accessRights">Access rights (cg.identifier.status)</message>
     <message key="xmlui.reporting-suite.statistics.graph-editor.data-source.dataset.option.usageRights">Usage rights (dc.rights)</message>
     <message key="xmlui.reporting-suite.statistics.graph-editor.data-source.dataset.option.isijournal">ISI journal (cg.isijournal)</message>
     <message key="xmlui.reporting-suite.statistics.graph-editor.data-source.dataset.option.journaltitle">Journal title (dc.source)</message>
@@ -798,7 +798,7 @@ DAMAGE.
     <message key="xmlui.reporting-suite.statistics.contentanalysis.subject">AGROVOC keyword</message>
     <message key="xmlui.reporting-suite.statistics.contentanalysis.type">Type</message>
     <message key="xmlui.reporting-suite.statistics.contentanalysis.dateAccessioned">Date Submitted</message>
-    <message key="xmlui.reporting-suite.statistics.contentanalysis.status">Status</message>
+    <message key="xmlui.reporting-suite.statistics.contentanalysis.accessRights">Access rights</message>
     <message key="xmlui.reporting-suite.statistics.contentanalysis.usageRights">Usage rights</message>
     <message key="xmlui.reporting-suite.statistics.contentanalysis.isijournal">ISI journal</message>
     <message key="xmlui.reporting-suite.statistics.contentanalysis.journaltitle">Journal title</message>

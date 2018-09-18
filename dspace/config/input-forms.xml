@@ -536,10 +536,10 @@
           <dc-element>identifier</dc-element>
           <dc-qualifier>status</dc-qualifier>
           <repeatable>false</repeatable>
-          <label>Accessibility status (required)</label>
+          <label>Access rights (required)</label>
           <input-type value-pairs-name="common_status_identifier">dropdown</input-type>
-          <hint>Indicate the accessibility of the item.</hint>
-          <required>Accesibility status is required.</required>
+          <hint>Indicate the access rights of the item.</hint>
+          <required>Access rights is required.</required>
         </field>
         <field>
           <dc-schema>dc</dc-schema>
@@ -770,10 +770,10 @@
           <dc-element>identifier</dc-element>
           <dc-qualifier>status</dc-qualifier>
           <repeatable>false</repeatable>
-          <label>Accessibility status</label>
+          <label>Access rights (required)</label>
           <input-type value-pairs-name="common_status_identifier">dropdown</input-type>
-          <hint>Please select either Open Access or Limited Access.</hint>
-          <required></required>
+          <hint>Indicate the access rights of the item.</hint>
+          <required>Access rights is required.</required>
         </field>
         <field>
           <dc-schema>dc</dc-schema>
@@ -1547,16 +1547,16 @@
     </value-pairs>
     <value-pairs value-pairs-name="common_status_identifier" dc-term="identifier_status">
       <pair>
-        <displayed-value>N/A</displayed-value>
-        <stored-value></stored-value>
+        <displayed-value>Unrestricted Access</displayed-value>
+        <stored-value>Unrestricted Access</stored-value>
       </pair>
       <pair>
-        <displayed-value>Open Access</displayed-value>
-        <stored-value>Open Access</stored-value>
+        <displayed-value>Restricted Access</displayed-value>
+        <stored-value>Restricted Access</stored-value>
       </pair>
       <pair>
-        <displayed-value>Limited Access</displayed-value>
-        <stored-value>Limited Access</stored-value>
+        <displayed-value>Metadata Only</displayed-value>
+        <stored-value>Metadata Only</stored-value>
       </pair>
     </value-pairs>
     <value-pairs value-pairs-name="usage-rights" dc-term="usage-rights">

@@ -117,8 +117,8 @@
                 <ref bean="searchFilterIlriSubject"/>
                 <ref bean="searchFilterIwmiSubject"/>
                 <ref bean="searchFilterWlesubject"/>
-                <ref bean="searchFilterStatus" />
                 <ref bean="searchFilterUsageRights" />
+                <ref bean="searchFilterAccessRights" />
             </list>
         </property>
         <!-- Set TagCloud configuration per discovery configuration -->
@@ -153,8 +153,8 @@
                 <ref bean="searchFilterIlriSubject"/>
                 <ref bean="searchFilterIwmiSubject"/>
                 <ref bean="searchFilterWlesubject"/>
-                <ref bean="searchFilterStatus" />
                 <ref bean="searchFilterUsageRights" />
+                <ref bean="searchFilterAccessRights" />
                 <ref bean="searchFilterOrcid" />
                 <ref bean="searchFilterLanguage"/>
                 <ref bean="searchFilterJournalTitle"/>
@@ -261,8 +261,8 @@
                 <ref bean="searchFilterIlriSubject"/>
                 <ref bean="searchFilterIwmiSubject"/>
                 <ref bean="searchFilterWlesubject"/>
-                <ref bean="searchFilterStatus" />
                 <ref bean="searchFilterUsageRights" />
+                <ref bean="searchFilterAccessRights" />
             </list>
         </property>
         <!-- Set TagCloud configuration per discovery configuration -->
@@ -298,8 +298,8 @@
                 <ref bean="searchFilterIlriSubject"/>
                 <ref bean="searchFilterIwmiSubject"/>
                 <ref bean="searchFilterWlesubject"/>
-                <ref bean="searchFilterStatus" />
                 <ref bean="searchFilterUsageRights" />
+                <ref bean="searchFilterAccessRights" />
                 <ref bean="searchFilterOrcid" />
                 <ref bean="searchFilterLanguage"/>
                 <ref bean="searchFilterJournalTitle"/>
@@ -489,14 +489,16 @@
         <property name="sortOrderFilterPage" value="COUNT"/>
     </bean>
 
-    <bean id="searchFilterStatus" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
-        <property name="indexFieldName" value="status"/>
+    <bean id="searchFilterAccessRights" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
+        <property name="indexFieldName" value="accessRights"/>
         <property name="metadataFields">
             <list>
                 <value>cg.identifier.status</value>
             </list>
         </property>
-        <property name="facetLimit" value="2"/>
+        <property name="facetLimit" value="3"/>
+        <property name="sortOrderSidebar" value="COUNT"/>
+        <property name="sortOrderFilterPage" value="COUNT"/>
     </bean>
 
     <bean id="searchFilterUsageRights" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
@@ -904,8 +906,8 @@
                 <ref bean="searchFilterSpecies" />
                 <ref bean="searchFilterIssued"/>
                 <ref bean="searchFilterDateAccessioned"/>
-                <ref bean="searchFilterStatus"/>
                 <ref bean="searchFilterUsageRights" />
+                <ref bean="searchFilterAccessRights"/>
                 <ref bean="searchFilterLanguage"/>
                 <ref bean="searchFilterType"/>
                 <ref bean="searchFilterISIJournal"/>
