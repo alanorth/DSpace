@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# agrovoc-lookup.py 0.0.2
+# agrovoc-lookup.py 0.0.3
 #
 # Copyright 2019 Alan Orth.
 #
@@ -21,6 +21,8 @@
 #
 # Queries the public AGROVOC API for subjects read from a text file. Text file
 # should have one subject per line (comments and invalid lines are skipped).
+# Matched and unmatched subject terms are saved to separate output files, with
+# the option to save unmatched terms with suggested matches as a CSV.
 #
 # This script is written for Python 3.6+ and requires several modules that you
 # can install with pip (I recommend using a Python virtual environment):
@@ -30,6 +32,7 @@
 
 import argparse
 from colorama import Fore
+import csv
 from datetime import timedelta
 import re
 import requests
@@ -72,8 +75,59 @@ def resolve_subjects(subjects):
     for subject in subjects:
         if args.debug:
             sys.stderr.write(Fore.GREEN + f'Looking up the subject: {subject} ({args.language})\n' + Fore.RESET)
+        elif args.debug and suggest_matches:
+            sys.stderr.write(Fore.YELLOW + f'Performing wildcard search for {subject!r} in AGROVOC {args.language}\n' + Fore.RESET)
+        request = lookup_subject(subject, args.language, args.suggest_matches)
 
-        request_url = f'http://agrovoc.uniroma2.it/agrovoc/rest/v1/search?query={subject}&lang={args.language}'
+        if request.status_code == requests.codes.ok:
+            data = request.json()
+
+            # check if there is 1 result, ie an exact subject term match
+            if len(data['results']) == 1 and not args.suggest_matches:
+                print(f'Exact match for {subject!r} in AGROVOC {args.language}')
+
+                args.output_matches_file.write(subject + '\n')
+
+            # check if there are 1 or more matches and the user requested
+            # suggestions
+            elif len(data['results']) >= 1 and args.suggest_matches:
+
+                # initialize empty list of suggestions
+                suggestions = []
+
+                for result in data['results']:
+                    if 'prefLabel' in result:
+                        prefLabel = result['prefLabel']
+                        print(f'\tPreferred suggestion for subject term {subject!r}: {prefLabel}')
+                    if 'altLabel' in result:
+                        altLabel = result['altLabel']
+                        print(f'\tAlternative suggestion for subject term {subject!r}: {altLabel}')
+
+                    suggestions.append(result)
+
+                #for suggestion in suggestions:
+                #row = {'dc.subject': f'{subject!r}', 'suggestions': f'{suggestions}' }
+                #csvwriter.writerow(row, ['dc.subject', 'suggestions'])
+
+            # no matches
+            else:
+                if args.debug:
+                    sys.stderr.write(Fore.YELLOW + f'No exact match for {subject!r} in AGROVOC {args.language}\n' + Fore.RESET)
+
+                args.output_rejects_file.write(subject + '\n')
+
+    # close output files before we exit
+    args.output_matches_file.close()
+    args.output_rejects_file.close()
+
+
+def lookup_subject(subject, language, suggest_matches=False):
+
+        # perform a wildcard search to get suggestions for unmatched terms
+        if suggest_matches:
+            subject = f'{subject}*'
+
+        request_url = f'http://agrovoc.uniroma2.it/agrovoc/rest/v1/search?query={subject}&lang={language}'
 
         # enable transparent request cache with seven days expiry
         expire_after = timedelta(days=7)
@@ -84,23 +138,7 @@ def resolve_subjects(subjects):
         # prune old cache entries
         requests_cache.core.remove_expired_responses()
 
-        if request.status_code == requests.codes.ok:
-            data = request.json()
-
-            # check if there is 1 result, ie an exact subject term match
-            if len(data['results']) == 1:
-                print(f'Exact match for {subject!r} in AGROVOC {args.language}')
-
-                args.output_matches_file.write(subject + '\n')
-            else:
-                if args.debug:
-                    sys.stderr.write(Fore.YELLOW + f'No match for {subject!r} in AGROVOC {args.language}\n' + Fore.RESET)
-
-                args.output_rejects_file.write(subject + '\n')
-
-    # close output files before we exit
-    args.output_matches_file.close()
-    args.output_rejects_file.close()
+        return request
 
 
 def signal_handler(signal, frame):
@@ -113,6 +151,7 @@ def signal_handler(signal, frame):
 
 parser = argparse.ArgumentParser(description='Query the AGROVOC REST API to validate subject terms from a text file.')
 parser.add_argument('--debug', '-d', help='Print debug messages to standard error (stderr).', action='store_true')
+parser.add_argument('--suggest-matches', '-s', help='Perform wildcard search and save suggestions to CSV (use rejects file from a previous run as input, for example).', action='store_true')
 parser.add_argument('--input-file', '-i', help='File name containing subject terms to look up.', required=True, type=argparse.FileType('r'))
 parser.add_argument('--language', '-l', help='Language to query terms (default en).', default='en')
 parser.add_argument('--output-matches-file', '-om', help='Name of output file to write matched subjects to.', required=True, type=argparse.FileType('w', encoding='UTF-8'))
@@ -124,6 +163,13 @@ signal.signal(signal.SIGINT, signal_handler)
 
 # if the user specified an input file, get the addresses from there
 if args.input_file:
+    if args.suggest_matches:
+        # prepare CSV file to save unmatched terms with their suggestions
+        csvfields = ['dc.subject', 'suggestions']
+        csvwriter = csv.DictWriter(args.output_rejects_file, csvfields)
+        # write header once here before we start looping and adding rows
+        csvwriter.writeheader()
+
     read_subjects_from_file()
 
 exit()
