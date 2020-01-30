@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Subregions need to be defined both here and in input-forms.xml (for Atmire L&R) -->
+<node id="Subregion" label="">
+  <isComposedBy>
+    <node label="AFAR" />
+    <node label="AMHARA" />
+    <node label="ANDHRA PRADESH" />
+    <node label="BENISHANGUL-GUMUZ" />
+    <node label="BIHAR" />
+    <node label="GAMBELA" />
+    <node label="HARARI" />
+    <node label="KARNATAKA" />
+    <node label="MADHYA PRADESH" />
+    <node label="MAHARASHTRA" />
+    <node label="NAGALAND" />
+    <node label="OROMIA" />
+    <node label="SNNPR" />
+    <node label="SOMALI" />
+    <node label="TIGRAY" />
+    <node label="UTTAR PRADESH" />
+    <node label="UTTARAKHAND" />
+  </isComposedBy>
+</node>

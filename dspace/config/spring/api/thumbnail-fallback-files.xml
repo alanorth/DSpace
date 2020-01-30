@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    The contents of this file are subject to the license and copyright
+    detailed in the LICENSE and NOTICE files at the root of the source
+    tree and available online at
+
+    http://www.dspace.org/license/
+
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd
+           http://www.springframework.org/schema/util
+           http://www.springframework.org/schema/util/spring-util-3.0.xsd"
+       default-autowire-candidates="*Service,*DAO,javax.sql.DataSource">
+
+    <context:annotation-config/>
+
+
+    <!--A mapping used to indicate what mimetypes should link to a certain discovery facet -->
+    <util:map id="mimetypes-with-associated-images" key-type="java.lang.String" value-type="java.lang.String">
+
+        <!-- text image-->
+        <entry key="application/pdf" value="images/fallback-mimetypes/text-x-generic.svg"/>
+        <entry key="text/plain" value="images/fallback-mimetypes/text-x-generic.svg"/>
+        <entry key="text/richtext" value="images/fallback-mimetypes/text-x-generic.svg"/>
+
+
+        <!-- Audio image-->
+        <entry key="audio/x-aiff" value="images/fallback-mimetypes/audio-x-mpeg.svg"/>
+        <entry key="audio/basic" value="images/fallback-mimetypes/audio-x-mpeg.svg"/>
+        <entry key="audio/x-wav" value="images/fallback-mimetypes/audio-x-mpeg.svg"/>
+
+        <!-- Excel image-->
+        <entry key="application/vnd.ms-excel" value="images/fallback-mimetypes/x-office-spreadsheet.svg"/>
+        <entry key="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" value="images/fallback-mimetypes/x-office-spreadsheet.svg"/>
+
+        <!-- Powerpoint image-->
+        <entry key="application/vnd.ms-powerpoint" value="images/fallback-mimetypes/x-office-presentation.svg"/>
+        <entry key="application/vnd.openxmlformats-officedocument.presentationml.presentation" value="images/fallback-mimetypes/x-office-presentation.svg"/>
+
+        <!-- Word image-->
+        <entry key="application/msword" value="images/fallback-mimetypes/x-office-document.svg"/>
+        <entry key="application/vnd.openxmlformats-officedocument.wordprocessingml.document" value="images/fallback-mimetypes/x-office-document.svg"/>
+
+        <!--Images (jpeg for now)-->
+        <entry key="image/jpeg" value="images/fallback-mimetypes/image-jpeg.svg"/>
+
+        <entry key="default" value="images/fallback-mimetypes/application-x-zerosize.svg"/>
+    </util:map>
+
+</beans>
