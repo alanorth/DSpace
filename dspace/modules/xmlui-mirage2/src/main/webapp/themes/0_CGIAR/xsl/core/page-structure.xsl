@@ -77,7 +77,6 @@
 
                 <!-- Then proceed to the body -->
                 <body>
-                    <xsl:call-template name="bodyAttributes"/>
                     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
                    chromium.org/developers/how-tos/chrome-frame-getting-started -->
                     <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -139,16 +138,6 @@
                 <xsl:apply-templates select="dri:body" mode="modal"/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template>
-
-    <xsl:template name="bodyAttributes">
-
-        <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='config'][@qualifier='atmire-cua.auto-open-statlets'][text()='true']">
-            <xsl:attribute name="class">
-                <xsl:text>auto-open-statlets</xsl:text>
-            </xsl:attribute>
-        </xsl:if>
-
     </xsl:template>
 
     <!-- The HTML head element contains references to CSS as well as embedded JavaScript code. Most of this
@@ -1000,15 +989,6 @@ Headquarters Nairobi Kenya P.O Box 30709-00100<br />
                 </xsl:when>
             </xsl:choose>
         </xsl:for-each>
-
-
-        <script>
-            <xsl:attribute name="src">
-                <xsl:value-of select="$theme-path"/>
-                <xsl:text>scripts/cua-overrides.js</xsl:text>
-            </xsl:attribute>
-            &#160;
-        </script>
 
         <!-- add setup JS code if this is a choices lookup page -->
         <xsl:if test="dri:body/dri:div[@n='lookup']">
