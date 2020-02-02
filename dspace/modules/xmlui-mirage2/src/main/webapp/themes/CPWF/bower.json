@@ -1,6 +1,6 @@
 {
-  "name": "Mirage2",
-  "version": "0.1.1",
+  "name": "mirage2",
+  "version": "0.1.2",
   "dependencies": {
     "jquery-ui": "1.10.3",
     "bootstrap-sass-official": "3.3.0",
