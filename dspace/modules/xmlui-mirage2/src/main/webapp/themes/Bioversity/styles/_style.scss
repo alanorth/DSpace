@@ -1,0 +1,30 @@
+@import "../../0_CGIAR/styles/main";
+
+header .navbar-default {
+  color: $bioversity-white;
+}
+
+.headerInfoName {
+  color: $bioversity-white;
+}
+
+.headerInfoText {
+  color: $bioversity-white;
+}
+
+.trail-wrapper {
+  color: $bioversity-white;
+  border-bottom: none;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $bioversity-white;
+}
+
+// hamburger menu on mobile navbar
+.trail-toggle .navbar-toggle .icon-bar {
+  background-color: $bioversity-white;
+}

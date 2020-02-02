@@ -1,0 +1,299 @@
+$fa-font-path: "../vendor/fontawesome/fonts";
+
+@import "../vendor/fontawesome/scss/font-awesome";
+@import "../vendor/academicons/css/academicons.css";
+@import "cookieconsent";
+
+.navbar-brand {
+  padding: 5px 15px;
+  height: 75px;
+}
+
+header .navbar-brand img {
+  height: 60px;
+}
+
+.trail-wrapper{
+  background-color: $brand-secondary;
+}
+
+header .navbar-default{
+  background-color: $brand-primary;
+}
+
+#ds-search-option{
+  margin-top:20px;
+  width:25%;
+
+}
+@media screen and (max-width: 775px) {
+ #ds-search-option.pull-right{
+   float:left !important;
+   width:100%;
+ }
+}
+
+
+a.list-group-item {
+  color: $brand-primary;
+  background: rgba(239,239,239,0.7);
+
+
+}
+a.list-group-item:hover{
+  text-decoration: underline;
+  color: $brand-primary;
+}
+.list-group-item{
+  border:0;
+  padding: 4px 12px
+
+}
+.list-group-item.active{
+    border-bottom-color: #e3e3e3;
+    color: #636363;
+  background: rgba(239,239,239,0.7);
+  border-bottom:1px solid #dcdcdc;
+  padding:5px 12px 4px;
+  pointer-events:none;
+  margin-bottom:1px;
+}
+
+.list-group-item.active:not(:first-child){
+  padding-top:10px;
+}
+
+span.h5.list-group-item-heading.h5{
+  font-size: 14px;
+
+}span.h5.list-group-item-heading.h5:hover{
+   text-decoration: none;
+
+}
+body{
+  background: #fcfcfc;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #636363;
+  font-size: 13px;
+  line-height: 16px;
+}
+.breadcrumb li, .trail-wrapper .breadcrumb > .active, .breadcrumb > li > a {
+  color: #fcfcfc;
+}
+
+.trail-wrapper .breadcrumb > li + li:before {
+  color: #fcfcfc;
+}
+
+#ds-options .ds-option-set-head {
+  text-transform: inherit;
+  font-size: 15px;
+}
+h2{
+  color:$brand-primary;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+.headerInfoName {
+  color: #fcfcfc;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left:5px;
+  position: absolute;
+}
+
+.headerInfoText {
+  font-size: 15px;
+  color: #fcfcfc;
+  position: absolute;
+  top: 50px;
+  margin-left:5px;
+
+}
+
+button.navbar-toggle.visible-sm:hover {
+  background-color: inherit;
+}
+.trail-toggle .navbar-toggle .icon-bar {
+  background-color: #eeeeee;
+}
+
+.navbar-toggle{
+  padding:  0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px){
+  .navbar-toggle {
+    display: inline;
+  }
+  .community-browser-wrapper {
+    max-width: none;
+  }
+}
+
+.footermargin > a{
+  margin-left:50px;
+  font-size:15px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.footermargin > a:first-child{
+  margin-left:15px;
+}
+.bold {
+  font-weight: bold;
+}
+
+div.marginleft{
+  margin-left:25px;
+}
+
+.descriptionlabel {
+  text-align: right;
+  display: inline-block;
+  width: 65px;
+  padding-right: 10px;
+}
+
+div.item-wrapper.row{
+  margin-bottom:20px;
+}
+
+
+.description-info{
+  display:inline-table;
+width:85%
+}
+.thumbnail>img, .thumbnail a>img{
+  width: 128px;
+  border:0;
+  margin-left: 0;
+}
+.thumbnail a {
+  /* clickable area of thumbnails should not fill the entire area of the parent div */
+  display: inline-block;
+}
+.artifact-preview a>img {
+  /* visually constrain very tall thumbnails in the item lists (but not item views) */
+  max-height: 170px;
+}
+.auto-open-statlets #aspect_statistics_StatletTransformer_div_showStats{
+  display: none;
+}
+
+.orcid-icon-link img{
+  margin-left: 5px;
+  height:20px;
+  width:20px;
+}
+
+.ds-cg_creator_orcid {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+
+.community-browser-row a[name='community-browser-link'] {
+  line-height: 20px;
+  font-size: 15px;
+}
+
+footer div.footer{
+  width:100%;
+  background-color: #fcfcfc;
+}
+
+/* better alignment of Font Awesome icons with surrounding footer text */
+.footer .fa-2x {
+  vertical-align: middle;
+}
+
+#aspect_discovery_CollectionSearch_p_search-query,#aspect_discovery_CommunitySearch_p_search-query{
+  left:25%;
+ }
+div.secondary.search-browse{
+  text-align: center;
+  p{
+    font-size:16px;
+    color:$brand-primary;
+  }
+}
+.breadcrumb{
+  padding-left: 0px;
+}
+
+.item-summary-view-metadata .fa {
+  color: #333;
+  margin: 2px;
+}
+#aspect_viewArtifacts_Navigation_list_discovery .list-group-item {
+  font-size: 12px;
+  line-height: 1;
+}
+#sidebar .list-group-item {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.list-group {
+  margin-bottom: 8px;
+}
+
+.item-summary-view-metadata .fa, .item-summary-view-metadata .ai {
+  color: $brand-primary;
+  margin: 2px;
+}
+
+// fix for long URLs in item view
+// https://github.com/ilri/DSpace/issues/172
+.simple-item-view-description .marginleft {
+  text-align: left;
+}
+
+// buttons on submit page should have brand colors
+.btn-success {
+  background-color: $brand-primary;
+  border-color: darken($brand-primary, 5%);
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+  background-color: lighten($brand-primary, 5%);
+  border-color: $brand-primary;
+}
+
+.btn-success[disabled] {
+  background-color: lighten($brand-primary, 10%);
+  border-color: lighten($brand-primary, 5%);
+}
+
+/* RSS icons should be orange! */
+/* See: https://en.wikipedia.org/wiki/Feed_icon */
+.fa-rss {
+  color: #FA9B39;
+}
+
+/* GitHub icon should be black! */
+.fa-github {
+  color: black;
+}
+
+/* @ icon should be redish, like the old image it replaces */
+.fa-at {
+  color: maroon;
+}
+
+/* ORCID branding guidelines: https://orcid.org/trademark-and-id-display-guidelines */
+.item-summary-view-metadata .ai-orcid {
+  color: #A6CE39;
+  margin-left: .25em; /* left and right margin should be 25% of size */
+  margin-right: .25em;
+}

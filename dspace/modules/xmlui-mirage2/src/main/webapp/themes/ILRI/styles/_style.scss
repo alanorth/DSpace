@@ -1,0 +1,43 @@
+@import "../../0_CGIAR/styles/main";
+
+body {
+  color: $ilri-gray;
+}
+
+header .navbar-default {
+  color: $ilri-white;
+}
+
+.headerInfoName {
+  color: $ilri-white;
+}
+
+.headerInfoText {
+  color: $ilri-white;
+}
+
+.trail-wrapper {
+  color: $ilri-gray;
+  border-bottom: none;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $ilri-gray;
+}
+
+// hamburger menu on mobile navbar
+.trail-toggle .navbar-toggle .icon-bar {
+  background-color: $ilri-gray;
+}
+
+.text-muted {
+  color: #666;
+}
+
+// color of text on cookieconsent accept button
+.cc-btn.cc-allow, .cc-btn.cc-allow:hover {
+  color: $ilri-gray;
+}

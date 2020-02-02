@@ -1,0 +1,34 @@
+@import "../../0_CGIAR/styles/main";
+
+body {
+  color: $crp37-black-text;
+}
+
+.trail-wrapper {
+  background-color: $brand-primary;
+  border-bottom: 5px solid $brand-secondary;
+}
+
+.breadcrumb .dropdown-toggle {
+  color: $crp37-white;
+}
+
+header .navbar-default {
+  background-color: $crp37-white;
+  color: $crp37-black-text;
+}
+
+.headerInfoName {
+  color: $crp37-black-text;
+}
+
+.headerInfoText {
+  color: $crp37-black-text;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $crp37-black-text;
+}

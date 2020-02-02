@@ -1,0 +1,30 @@
+@import "../../0_CGIAR/styles/main";
+
+header .navbar-default {
+  color: $iita-white;
+}
+
+.trail-wrapper {
+  background-color: $iita-white;
+  color: $iita-black-text;
+  border-bottom: none;
+}
+
+.breadcrumb .dropdown-toggle {
+  color: $iita-black-text;;
+}
+
+.headerInfoName {
+  color: $iita-white;
+}
+
+.headerInfoText {
+  color: $iita-white;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $iita-black-text;
+}

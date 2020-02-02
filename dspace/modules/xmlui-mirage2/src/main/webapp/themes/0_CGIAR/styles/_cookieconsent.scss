@@ -1,0 +1,59 @@
+@import "../vendor/cookieconsent/src/styles/base.css";
+@import "../vendor/cookieconsent/src/styles/layout.css";
+@import "../vendor/cookieconsent/src/styles/media.css";
+
+.cc-window {
+  background-color: $brand-primary;
+  color: #fcfcfc;
+}
+
+.cc-btn.cc-allow, .cc-btn.cc-allow:hover {
+  color: #fcfcfc;
+  background-color: $brand-secondary;
+  border: none;
+}
+
+.cc-btn.cc-dismiss {
+  color: #fcfcfc;
+}
+
+.cc-link, .cc-link:visited {
+  color: inherit;
+}
+
+//
+//.cc-btn.cc-dismiss {
+//  color: #fcfcfc;
+//}
+//
+//.cc-btn:hover {
+//  background-color: red;
+//}
+//
+////.cc-btn:hover {
+////  background-color: lighten($brand-secondary, 5%);
+////  color: #fcfcfc;
+////}
+
+// .cc-message {
+//   width: auto;
+//   background: white;
+//   padding: 20px 76px 20px 16px;
+//   border-radius: 10px;
+//   margin-right: -70px;
+//   margin-left: 20%;
+// }
+
+//.cc-link, .cc-link:visited {
+//  color: lighten(#fcfcfc, 5%);
+//}
+//
+//.cc-btn {
+//  background-color: $brand-secondary;
+//  border-color: lighten($brand-primary, 5%);
+//}
+//
+//.cc-btn:hover {
+//  background-color: lighten($brand-primary, 5%);
+//  border-color: $brand-primary;
+//}

@@ -1,0 +1,28 @@
+@import "../../0_CGIAR/styles/main";
+
+body {
+  color: $brand-secondary;
+}
+
+.trail-wrapper {
+  background-color: $brand-primary;
+  color: #FFF;
+  border-bottom: 5px solid $ciat-light-green;
+}
+
+.trail-wrapper .glyphicon {
+  color: $brand-secondary;
+}
+
+header .navbar-default {
+  background-color: #FFF;
+  color: $brand-secondary;
+}
+
+.headerInfoName {
+  color: $brand-secondary;
+}
+
+.headerInfoText {
+  color: $brand-secondary;
+}

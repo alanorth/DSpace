@@ -1,0 +1,40 @@
+@import "../../0_CGIAR/styles/main";
+
+body {
+  color: $ccafs-black-text;
+}
+
+.trail-wrapper {
+  background-color: $ccafs-blue;
+  color: $ccafs-white;
+  border-bottom: 5px solid $brand-secondary;
+}
+
+.breadcrumb .dropdown-toggle {
+  color: $ccafs-white;
+}
+
+header .navbar-default {
+  background-color: $ccafs-white;
+  color: $ccafs-black-text;
+}
+
+.headerInfoName {
+  color: $ccafs-black-text;
+}
+
+.headerInfoText {
+  color: $ccafs-black-text;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $ccafs-white;
+}
+
+// color of text on cookieconsent accept button
+.cc-btn.cc-allow, .cc-btn.cc-allow:hover {
+  color: $ccafs-black-text;
+}

@@ -1,0 +1,35 @@
+@import "../../0_CGIAR/styles/main";
+
+body {
+  color: $cpwf-black-text;
+}
+
+.trail-wrapper {
+  background-color: $brand-primary;
+  color: $cpwf-white;
+  border-bottom: 5px solid $brand-secondary;
+}
+
+.breadcrumb .dropdown-toggle {
+  color: $cpwf-white;
+}
+
+header .navbar-default {
+  background-color: $cpwf-white;
+  color: $cpwf-black-text;
+}
+
+.headerInfoName {
+  color: $cpwf-black-text;
+}
+
+.headerInfoText {
+  color: $cpwf-black-text;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $cpwf-white;
+}

@@ -1,0 +1,30 @@
+@import "../../0_CGIAR/styles/main";
+
+.trail-wrapper {
+  color: $cta-white;
+  border-bottom: none;
+}
+
+.trail-wrapper .glyphicon-home {
+  color: $cta-white;
+}
+
+.headerInfoName {
+  color: $cta-white;
+}
+
+.headerInfoText {
+  color: $cta-white;
+}
+
+.trail-wrapper {
+  color: $cta-white;
+  border-bottom: none;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $cta-white;
+}

@@ -1,0 +1,30 @@
+@import "../../0_CGIAR/styles/main";
+
+header .navbar-default {
+  color: $cip-white;
+}
+
+.trail-wrapper {
+  background-color: $cip-white;
+  color: $cip-black-text;
+  border-bottom: none;
+}
+
+.breadcrumb .dropdown-toggle {
+  color: $cip-black-text;;
+}
+
+.headerInfoName {
+  color: $cip-white;
+}
+
+.headerInfoText {
+  color: $cip-white;
+}
+
+// text on breadcrumb
+.breadcrumb > li,
+.breadcrumb > li > a,
+.trail-wrapper .breadcrumb > li + li::before {
+  color: $cip-black-text;
+}
