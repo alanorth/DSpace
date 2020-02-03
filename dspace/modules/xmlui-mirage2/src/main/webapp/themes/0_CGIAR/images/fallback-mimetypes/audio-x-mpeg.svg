@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64"><defs><linearGradient id="c"><stop offset="0" stop-color="#d3bdd7"/><stop offset="1" stop-color="#e8d9eb"/></linearGradient><linearGradient id="a"><stop offset="0" stop-color="#8e44ad"/><stop offset="1" stop-color="#9b59b6"/></linearGradient><linearGradient xlink:href="#a" id="d" x1="32" y1="61" x2="32" y2="3" gradientUnits="userSpaceOnUse"/><linearGradient gradientTransform="matrix(1 0 0 -1 -14 78)" xlink:href="#b" id="f" x1="54" y1="31" x2="40" y2="17" gradientUnits="userSpaceOnUse"/><linearGradient id="b"><stop offset="0" stop-color="#383e51"/><stop offset="1" stop-color="#655c6f" stop-opacity="0"/></linearGradient><linearGradient xlink:href="#c" id="e" x1="47" y1="61" x2="47" y2="47" gradientUnits="userSpaceOnUse"/></defs><path d="M10 3v58h30l14-14V3H10z" fill="url(#d)"/><path fill="#2e3132" fill-opacity=".294" d="M10 60h30v1H10z"/><path fill="#fff" fill-opacity=".41" d="M10 3h44v1H10z"/><path d="M54 47L40 61V47z" fill="url(#e)" fill-rule="evenodd"/><path d="M26 61l14-14v14z" opacity=".2" fill="url(#f)" fill-rule="evenodd"/><path style="text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;isolation:auto;mix-blend-mode:normal" d="M27 21v16.053A3.484 3.484 0 0 0 24.5 36a3.492 3.492 0 0 0-3.5 3.5c0 1.939 1.561 3.5 3.5 3.5a3.487 3.487 0 0 0 3.49-3.4H28V26h14v8.053A3.484 3.484 0 0 0 39.5 33a3.492 3.492 0 0 0-3.5 3.5c0 1.939 1.561 3.5 3.5 3.5s3.5-1.561 3.5-3.5V21H27zm1 2h14v2H28v-2z" color="#000" overflow="visible" fill="#e8d9eb"/></svg>
+<svg version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="a" x2="0" y1="392.36" y2="336.36" gradientTransform="translate(-6,-332.36)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff" stop-opacity="0" offset="0"/>
+            <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+        </linearGradient>
+    </defs>
+    <g transform="translate(0,-4)" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto">
+        <circle cx="37" cy="36" r="24" fill="#c2a1e1"/>
+        <path d="m5 11v50h50v-20h-4.096c-2.717 0-4.904-2.187-4.904-4.904v-0.191c0-2.717 2.187-4.904 4.904-4.904h4.096v-20z" fill="#8542c2"/>
+        <rect x="5" y="60" width="50" height="1" opacity=".25"/>
+        <g fill="#fff">
+            <rect x="5" y="11" width="50" height="1" opacity=".5"/>
+            <path d="m21 25v16.05c-0.635-0.648-1.517-1.053-2.5-1.053-1.939 0-3.5 1.561-3.5 3.5s1.561 3.5 3.5 3.5c1.905 0 3.437-1.509 3.49-3.4h0.01v-13.6h14v8.05c-0.635-0.648-1.517-1.053-2.5-1.053-1.939 0-3.5 1.561-3.5 3.5s1.561 3.5 3.5 3.5 3.5-1.561 3.5-3.5v-15.5h-15zm1 2h14v2h-14z" opacity=".75" stroke-width="2"/>
+        </g>
+        <path d="m5 11v50h50v-9.158a24 24 0 0 0 6-15.841797 24 24 0 0 0-6-15.830078v-9.17z" fill="url(#a)"/>
+    </g>
+</svg>
