@@ -261,7 +261,6 @@
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterAffiliation" />
                 <ref bean="searchFilterIssued" />
-		        <ref bean="searchFilterContentInOriginalBundle"/>
                 <ref bean="searchFilterType" />
                 <ref bean="searchFilterCrpsubject" />
                 <ref bean="searchFilterSponsorship" />
