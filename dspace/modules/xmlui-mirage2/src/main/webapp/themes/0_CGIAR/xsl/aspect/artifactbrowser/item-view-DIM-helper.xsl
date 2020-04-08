@@ -314,7 +314,7 @@ such as authors, subject, citation, description, etc
 			    </xsl:attribute>
 
                 <span>
-                    <xsl:attribute name="class">ai ai-orcid</xsl:attribute>
+                    <xsl:attribute name="class">fab fa-orcid</xsl:attribute>
                     <xsl:attribute name="aria-hidden">true</xsl:attribute>
                 </span>
 
@@ -804,7 +804,7 @@ such as authors, subject, citation, description, etc
                 <xsl:attribute name="href"><xsl:text>https://www.mendeley.com/import/?url=</xsl:text><xsl:value-of select="dim:field[@element='identifier' and @qualifier='uri']"/></xsl:attribute>
                 <xsl:attribute name="title"><xsl:text>Add this article to your Mendeley library</xsl:text></xsl:attribute>
                 <xsl:attribute name="target"><xsl:text>blank</xsl:text></xsl:attribute>
-                <span class="ai ai-mendeley-square ai-2x" aria-hidden="true"></span>
+                <span class="fab fa-mendeley fa-2x" aria-hidden="true"></span>
             </a>
             <a>
                 <xsl:attribute name="href"><xsl:text>mailto:?&amp;body=</xsl:text><xsl:value-of select="dim:field[@element='identifier' and @qualifier='uri']"/><xsl:text>&amp;media=&amp;subject=</xsl:text><xsl:value-of select="dim:field[@element='title']"/></xsl:attribute>

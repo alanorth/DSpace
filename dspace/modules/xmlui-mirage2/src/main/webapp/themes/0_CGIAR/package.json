@@ -2,7 +2,6 @@
   "name": "Mirage2",
   "version": "0.1.2",
   "dependencies": {
-    "academicons": "1.8.6",
     "bootstrap-sass": "3.3.0",
     "cookieconsent": "3.0.6",
     "datatables": "1.10.5",

@@ -17,7 +17,6 @@ $fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
   background: $brand-secondary;
 }
 
-@import "../node_modules/academicons/css/academicons.css";
 @import "cookieconsent";
 
 .navbar-brand {
@@ -305,7 +304,7 @@ div.secondary.search-browse{
 }
 
 /* ORCID branding guidelines: https://orcid.org/trademark-and-id-display-guidelines */
-.item-summary-view-metadata .ai-orcid {
+.item-summary-view-metadata .fa-orcid {
   color: #A6CE39;
   margin-left: .25em; /* left and right margin should be 25% of size */
   margin-right: .25em;
