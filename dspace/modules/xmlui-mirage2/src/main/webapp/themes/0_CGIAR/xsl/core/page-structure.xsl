@@ -729,7 +729,7 @@
                             <i18n:text>xmlui.dri2xhtml.structural.feedback-link</i18n:text>
                         </a>
                         <a href="https://github.com/ilri/DSpace" title="CGSpace source code on GitHub">
-                            <span class="fa fa-github fa-2x" aria-hidden="true"></span>
+                            <span class="fab fa-github fa-2x" aria-hidden="true"></span>
                         </a>
 
 
