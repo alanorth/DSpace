@@ -10,7 +10,7 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
 
 @include selection {
   color: white;
-  background: hotpink;
+  background: $brand-secondary;
 }
 
 @import "../node_modules/font-awesome/scss/font-awesome";
