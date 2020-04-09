@@ -3,7 +3,7 @@ $fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-
+@import "cookieconsent";
 @import "atmire-cua";
 
 //example mixin to set the text-selection style
@@ -16,8 +16,6 @@ $fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
   color: white;
   background: $brand-secondary;
 }
-
-@import "cookieconsent";
 
 .navbar-brand {
   padding: 5px 15px;
