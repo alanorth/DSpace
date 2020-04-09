@@ -798,7 +798,7 @@ such as authors, subject, citation, description, etc
                 <xsl:attribute name="href"><xsl:text>https://www.linkedin.com/shareArticle?mini=true&amp;url=</xsl:text><xsl:value-of select="dim:field[@element='identifier' and @qualifier='uri']"/></xsl:attribute>
                 <xsl:attribute name="title"><xsl:text>Share on LinkedIn</xsl:text></xsl:attribute>
                 <xsl:attribute name="target"><xsl:text>blank</xsl:text></xsl:attribute>
-                <span class="fab fa-linkedin-square fa-2x" aria-hidden="true"></span>
+                <span class="fab fa-linkedin fa-2x" aria-hidden="true"></span>
             </a>
             <a>
                 <xsl:attribute name="href"><xsl:text>https://www.mendeley.com/import/?url=</xsl:text><xsl:value-of select="dim:field[@element='identifier' and @qualifier='uri']"/></xsl:attribute>
