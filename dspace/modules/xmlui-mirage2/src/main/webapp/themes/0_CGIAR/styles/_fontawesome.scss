@@ -1,0 +1,30 @@
+// Set web font path
+$fa-font-path: '../node_modules/@fortawesome/fontawesome-free/webfonts';
+
+// Only import parts of Font Awesome we will use, eg. no pulled or rotate icons
+// See: node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss
+@import '../node_modules/@fortawesome/fontawesome-free/scss/variables';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/mixins';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/core';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/larger';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/fixed-width';
+//@import '../node_modules/@fortawesome/fontawesome-free/scss/list';
+//@import '../node_modules/@fortawesome/fontawesome-free/scss/bordered-pulled';
+//@import '../node_modules/@fortawesome/fontawesome-free/scss/animated';
+//@import '../node_modules/@fortawesome/fontawesome-free/scss/rotated-flipped';
+//@import '../node_modules/@fortawesome/fontawesome-free/scss/stacked';
+//@import '../node_modules/@fortawesome/fontawesome-free/scss/icons';
+// Only import icons we will use from above _icons.scss
+.#{$fa-css-prefix}-at:before { content: fa-content($fa-var-at); }
+.#{$fa-css-prefix}-envelope:before { content: fa-content($fa-var-envelope); }
+.#{$fa-css-prefix}-facebook-square:before { content: fa-content($fa-var-facebook-square); }
+.#{$fa-css-prefix}-github:before { content: fa-content($fa-var-github); }
+.#{$fa-css-prefix}-linkedin:before { content: fa-content($fa-var-linkedin); }
+.#{$fa-css-prefix}-mendeley:before { content: fa-content($fa-var-mendeley); }
+.#{$fa-css-prefix}-rss:before { content: fa-content($fa-var-rss); }
+.#{$fa-css-prefix}-twitter-square:before { content: fa-content($fa-var-twitter-square); }
+//@import '../node_modules/@fortawesome/fontawesome-free/scss/screen-reader';
+
+// Import web fonts for brands and solid icons
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
