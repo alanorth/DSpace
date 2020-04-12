@@ -836,6 +836,7 @@
                             <li>to facilitate analysis of website traffic.</li>
                         </ol>
                         <p>ILRI uses cookies to facilitate the analysis of website traffic and to remember preferences you may have set. This helps us to understand and improve the performance and usability of CGSpace. Specifically, ILRI uses cookies when communicating with Google Analytics (for web traffic analysis). Personally identifiable information is not stored in these cookies.</p>
+                        <p id="cookie-preferences"></p>
                         <h3>When do we collect personal information?</h3>
                         <p>You are not asked to provide any personally identifiable information to access most parts of CGSpace. You will be asked to provide basic personal information such as your email address to subscribe to email alerts or leave a comment on the Site.</p>
                         <h3>How does ILRI use your personal information?</h3>
