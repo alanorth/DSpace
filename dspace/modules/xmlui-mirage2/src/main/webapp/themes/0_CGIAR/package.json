@@ -2,8 +2,8 @@
   "name": "Mirage2",
   "version": "0.1.2",
   "dependencies": {
+    "@chiiya/haven": "^0.5.11",
     "bootstrap-sass": "3.3.0",
-    "cookieconsent": "3.0.6",
     "datatables": "1.10.5",
     "@fortawesome/fontawesome-free": "^5.13.0",
     "handlebars": "4.0.11",

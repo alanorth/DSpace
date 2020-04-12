@@ -12,32 +12,38 @@
 
     <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
-    <!-- Add a google analytics script -->
+    <!-- Add a google analytics script if the key is present -->
     <xsl:template name="googleAnalytics">
-        <script><xsl:text>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        // Attempt to get status of cookieconsent cookie
-        var cookieConsentStatus = getCookie('cookieconsent_status');
-
-        // Initialize cookieconsent popup (will only show popup if cookieconsent has not been dismissed with allow or disallow)
-        initializeCookieConsent();
-
-        // If user has not allowed, set property to disable Google Analytics
-        // See: https://developers.google.com/analytics/devguides/collection/analyticsjs/user-opt-out
-        if ( cookieConsentStatus != 'allow' ) {
-        window['ga-disable-</xsl:text><xsl:value-of select="$theme-google-analytics-id"/><xsl:text>'] = true;
-        }
-
-        // Initialize Google Analytics with IP anonymization (will not actually send any data to Google if ga-disable-XXXXX-Y property is set)
-        ga('create', '</xsl:text><xsl:value-of select="$theme-google-analytics-id"/><xsl:text>', '</xsl:text><xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='request'][@qualifier='serverName']"/><xsl:text>');
-        ga('send', 'pageview', {
-          'anonymizeIp': true
-        });
-        </xsl:text></script>
+        <xsl:if test="$theme-google-analytics-id">
+            <script><xsl:text>
+                Haven.create({
+                    notification: {
+                        policyUrl: "/page/privacy"
+                    },
+                    translations: {
+                        en: {
+                            notification: {
+                                policy: "Our privacy statement.",
+                                message: "This site uses cookies. By clicking \"agree\" and continuing to use this site you agree to our use of cookies.",
+                                accept: "Agree",
+                                decline: "Disagree",
+                            }
+                        },
+                    },
+                    services: [
+                        {
+                            name: 'google-analytics',
+                            purposes: ['analytics'],
+                            type: 'google-analytics',
+                            inject: true,
+                            options: {
+                                id: '</xsl:text><xsl:value-of select="$theme-google-analytics-id"/><xsl:text>',
+                            }
+                        }
+                    ]
+                });
+            </xsl:text></script>
+        </xsl:if>
     </xsl:template>
 
 </xsl:stylesheet>

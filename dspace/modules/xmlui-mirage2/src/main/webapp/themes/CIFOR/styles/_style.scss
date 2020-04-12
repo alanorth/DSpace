@@ -35,6 +35,6 @@ header .navbar-default {
 }
 
 // color of text on cookieconsent accept button
-.cc-btn.cc-allow, .cc-btn.cc-allow:hover {
+#cookie-notification__accept, #cookie-notification__accept:hover {
   color: $brand-primary;
 }
