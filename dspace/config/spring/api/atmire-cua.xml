@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <context:annotation-config/>
+    <context:component-scan base-package="com.atmire.statistics"/>
+
+    <util:map id="defaultipranges" key-type="java.lang.String" value-type="java.lang.String">
+        <entry key="127.0.0.1" value="local"/>
+        <entry key="41.204.190.40/32" value="ILRI Nairobi"/>
+        <entry key="213.55.99.121/32" value="ILRI Ethiopia"/>
+    </util:map>
+
+    <bean class="com.atmire.statistics.util.MostPopularLocationConfiguration">
+        <property name="field" value="continent"/>
+        <property name="valueMap">
+            <map>
+                <entry key="EU"><list><value>EU</value></list></entry>
+                <entry key="NA"><list><value>NA</value></list></entry>
+                <entry key="SA"><list><value>SA</value></list></entry>
+                <!--<entry key="AN"><list><value>AN</value></list></entry>-->
+                <entry key="AF"><list><value>AF</value></list></entry>
+                <entry key="AS"><list><value>AS</value></list></entry>
+                <!--<entry key="OC"><list><value>OC</value></list></entry>-->
+                <entry key="UN"><list><value>A1</value><value>A2</value><value>O1</value></list></entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean class="com.atmire.statistics.MetadataStorageInfo">
+        <property name="metadataFields">
+            <list>
+                <value>dc.contributor.author</value>
+                <value>dc.creator</value>
+            </list>
+        </property>
+        <property name="solrSearchField">
+            <value>author</value>
+        </property>
+        <property name="solrStatisticsField">
+            <value>author</value>
+        </property>
+    </bean>
+
+    <bean class="com.atmire.statistics.MetadataStorageInfo">
+        <property name="metadataFields">
+            <list>
+                <value>dc.subject.*</value>
+            </list>
+        </property>
+        <property name="solrSearchField">
+            <value>subject</value>
+        </property>
+        <property name="solrStatisticsField">
+            <value>subject</value>
+        </property>
+    </bean>
+
+    <bean class="com.atmire.statistics.MetadataStorageInfo">
+        <property name="metadataFields">
+            <list>
+                <value>dc.language.iso</value>
+            </list>
+        </property>
+        <property name="solrSearchField">
+            <value>language</value>
+        </property>
+        <property name="solrStatisticsField">
+            <value>iso</value>
+        </property>
+    </bean>
+
+    <bean id="MetadataStorageInfoService" class="com.atmire.statistics.MetadataStorageInfoService"/>
+
+</beans>
