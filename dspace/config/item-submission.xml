@@ -247,7 +247,7 @@
        </step>
        -->
 
-       <!--
+       <!--MQM duplicate check-->
               <step>
                   <heading>duplicatecheck.submission.check</heading>
                   <processing-class>com.atmire.duplicate.submit.DuplicateCheckerStep</processing-class>
@@ -255,7 +255,6 @@
                   <xmlui-binding>com.atmire.app.xmlui.aspect.duplicatechecker.submission.DuplicateCheckerStep</xmlui-binding>
                   <workflow-editable>true</workflow-editable>
               </step>
-       -->
 
  	  <!--Step 5 will be to Verify/Review everything -->
  	  <step>
