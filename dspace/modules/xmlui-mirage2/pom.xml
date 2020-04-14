@@ -153,6 +153,7 @@
                             <directory>${project.build.directory}/themes</directory>
                             <targetPath>themes</targetPath>
                             <excludes>
+                                <exclude>**/node_modules/**</exclude>
                                 <exclude>**/.sass-cache/**</exclude>
                                 <exclude>**/.tmp/**</exclude>
                             </excludes>
