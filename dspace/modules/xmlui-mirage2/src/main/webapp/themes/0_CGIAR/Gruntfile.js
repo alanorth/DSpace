@@ -42,6 +42,18 @@ module.exports = function (grunt) {
                         dest: 'scripts-dist.xml'
                     }
                 ]
+            },
+            ie8_scripts: {
+                files: [
+                    {
+                        src: ['node_modules/html5shiv/dist/html5shiv.js'],
+                        dest: 'scripts/html5shiv.js'
+                    },
+                    {
+                        src: ['node_modules/respond.min.js/respond.min.js'],
+                        dest: 'scripts/respond.min.js'
+                    }
+                ]
             }
         },
         compass: {
@@ -141,7 +153,7 @@ module.exports = function (grunt) {
         'copy:bootstrap_color_scheme'
     ]);
     grunt.registerTask('shared-steps', [
-        'copy:scriptsxml', 'coffee', 'handlebars', 'useminPrepare','concat'
+        'copy:scriptsxml', 'coffee', 'handlebars', 'useminPrepare','concat', 'copy:ie8_scripts'
     ]);
     grunt.registerTask('no-compass-prod', [
         'shared-steps','uglify','usemin'
