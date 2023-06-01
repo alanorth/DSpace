@@ -3,5 +3,6 @@
   "extends": [
     "config:base"
   ],
-  "baseBranches": ["main-test"]
+  "baseBranches": ["main-test"],
+  "enabledManagers": ["maven"]
 }
