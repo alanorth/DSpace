@@ -4,5 +4,10 @@
     "config:base"
   ],
   "baseBranches": ["main-test"],
-  "enabledManagers": ["maven"]
+  "enabledManagers": ["maven"],
+  "packageRules": [
+  {
+    "matchUpdateTypes": ["minor", "patch"],
+    "matchCurrentVersion": "!/^0/"
+  }
 }
