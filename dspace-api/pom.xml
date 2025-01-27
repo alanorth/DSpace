@@ -60,8 +60,8 @@
                         </path>
                         <!-- Enable JAXB -->
                         <path>
-                            <groupId>javax.xml.bind</groupId>
-                            <artifactId>jaxb-api</artifactId>
+                            <groupId>jakarta.xml.bind</groupId>
+                            <artifactId>jakarta.xml.bind-api</artifactId>
                             <version>${jaxb-api.version}</version>
                         </path>
                         <!-- Enable Commons Annotations -->
@@ -735,8 +735,8 @@
 
         <!-- JAXB API and implementation (no longer bundled as of Java 11) -->
         <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>
